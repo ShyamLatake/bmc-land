@@ -10,7 +10,7 @@ export default function CTA() {
             Ready for a Magical Learning Adventure?
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-95 font-medium">
-            Join thousands of preschools and families already using BoostMyChild to help little ones discover their amazing potential!
+            Thousands of preschools and families already using BoostMyChild to help little ones discover their amazing potential!
           </p>
           
           {/* <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">

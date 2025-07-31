@@ -20,12 +20,12 @@ export default function Header({ isMenuOpen, setIsMenuOpen }: HeaderProps) {
           <nav className="hidden md:flex space-x-8">
             <a href="#products" className="text-white hover:text-coral transition-colors font-semibold">Products</a>
             <a href="#features" className="text-white hover:text-coral transition-colors font-semibold">Features</a>
-            <a href="#about" className="text-white hover:text-coral transition-colors font-semibold">About</a>
-            <a href="#contact" className="text-white hover:text-coral transition-colors font-semibold">Contact</a>
+            <a href="https://www.boostmychild.com/about" className="text-white hover:text-coral transition-colors font-semibold">About</a>
+            <a href="https://www.boostmychild.com/contactus" className="text-white hover:text-coral transition-colors font-semibold">Contact</a>
           </nav>
           
           <div className="hidden md:flex space-x-4">
-            <button className="text-coral hover:text-white bg-white hover:bg-coral px-4 py-2 rounded-full font-semibold transition-all duration-300 shadow-md">
+            <button onClick={() => window.location.href = 'https://www.boostmychild.com'} className="text-coral hover:text-white bg-white hover:bg-coral px-4 py-2 rounded-full font-semibold transition-all duration-300 shadow-md">
               Sign In
             </button>
             <button className="bg-coral text-white px-6 py-2 rounded-full hover:bg-white hover:text-coral transition-all duration-300 font-semibold shadow-lg transform hover:scale-105"
