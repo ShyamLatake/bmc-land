@@ -10,10 +10,10 @@ export default function CTA() {
             Ready for a Magical Learning Adventure?
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-95 font-medium">
-            Join thousands of preschools and families already using BoostMyChild to help little ones discover their amazing potential!
+            Thousands of preschools and families already using BoostMyChild to help little ones discover their amazing potential!
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
+          {/* <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <button className="bg-white text-coral px-8 py-4 rounded-full hover:bg-mint hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 text-lg font-bold shadow-lg">
               <span>Start Free Trial</span>
               <ArrowRight className="h-5 w-5" />
@@ -21,7 +21,7 @@ export default function CTA() {
             <button className="border-4 border-white text-white px-8 py-4 rounded-full hover:bg-white hover:text-coral transition-all duration-300 text-lg font-bold shadow-lg">
               Schedule Demo
             </button>
-          </div>
+          </div> */}
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="flex items-center justify-center space-x-2">

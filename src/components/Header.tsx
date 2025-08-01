@@ -13,21 +13,24 @@ export default function Header({ isMenuOpen, setIsMenuOpen }: HeaderProps) {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
             <BookOpen className="h-8 w-8 text-coral" />
-            <span className="text-2xl font-playful text-white drop-shadow-md">BoostMyChild</span>
+            {/* <span className="text-2xl font-playful text-white drop-shadow-md">BoostMyChild</span> */}
+            <img className='h-10' src="/BMC_R_Logo.png" alt="" />
           </div>
           
           <nav className="hidden md:flex space-x-8">
             <a href="#products" className="text-white hover:text-coral transition-colors font-semibold">Products</a>
             <a href="#features" className="text-white hover:text-coral transition-colors font-semibold">Features</a>
-            <a href="#about" className="text-white hover:text-coral transition-colors font-semibold">About</a>
-            <a href="#contact" className="text-white hover:text-coral transition-colors font-semibold">Contact</a>
+            <a href="https://www.boostmychild.com/about" className="text-white hover:text-coral transition-colors font-semibold">About</a>
+            <a href="https://www.boostmychild.com/contactus" className="text-white hover:text-coral transition-colors font-semibold">Contact</a>
           </nav>
           
           <div className="hidden md:flex space-x-4">
-            <button className="text-coral hover:text-white bg-white hover:bg-coral px-4 py-2 rounded-full font-semibold transition-all duration-300 shadow-md">
+            <button onClick={() => window.location.href = 'https://www.boostmychild.com'} className="text-coral hover:text-white bg-white hover:bg-coral px-4 py-2 rounded-full font-semibold transition-all duration-300 shadow-md">
               Sign In
             </button>
-            <button className="bg-coral text-white px-6 py-2 rounded-full hover:bg-white hover:text-coral transition-all duration-300 font-semibold shadow-lg transform hover:scale-105">
+            <button className="bg-coral text-white px-6 py-2 rounded-full hover:bg-white hover:text-coral transition-all duration-300 font-semibold shadow-lg transform hover:scale-105"
+            onClick={() => window.location.href = 'https://www.boostmychild.com'}
+            >
               Get Started
             </button>
           </div>

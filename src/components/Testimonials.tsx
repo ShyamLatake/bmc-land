@@ -4,28 +4,28 @@ import { Star, Quote } from 'lucide-react';
 export default function Testimonials() {
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'Preschool Director',
-      school: 'Sunshine Preschool',
-      content: 'SAM has made understanding each child\'s learning journey so much easier! The colorful reports help us celebrate every little milestone.',
-      rating: 5,
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
-    },
-    {
-      name: 'Michael Chen',
-      role: 'Dad of Emma (4) & Lucas (3)',
+      name: 'Prakash Mehta',
+      role: 'IT Professional',
       school: 'Smart Parent App User',
-      content: 'The Smart Parent App is amazing! I love seeing photos of my kids\' artwork and getting fun activity ideas to try at home together.',
+      content: 'Evaluations were very useful and activity suggestions were pinpoint.',
       rating: 5,
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: '/male_parent_1.jpg'
     },
     {
-      name: 'Dr. Emily Rodriguez',
-      role: 'Early Childhood Specialist',
-      school: 'Little Learners Academy',
-      content: 'BoostMyChild helps us spot each child\'s unique strengths early on. It\'s wonderful seeing how personalized learning makes every child shine!',
+      name: 'Dr. Aarthi Chandran',
+      role: 'Medical Practitioner',
+      school: 'Smart Parent App User',
+      content: 'Identified hidden hobbies and talents which I had missed to notice.',
       rating: 5,
-      image: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: '/female_parent_1.jpg'
+    },
+    {
+      name: 'Devika Sharma',
+      role: 'Teacher',
+      school: 'SAM User',
+      content: 'This has helped me be a better parent in spite of being so busy',
+      rating: 5,
+      image: '/female_parent_2.jpg'
     }
   ];
 

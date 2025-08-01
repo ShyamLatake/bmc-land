@@ -48,6 +48,7 @@ export default function Features() {
           <h2 className="text-3xl md:text-4xl font-playful text-coral mb-4">
             Why Choose BoostMyChild?
           </h2>
+          <h2 className="text-2xl font-playful mt-6 mb-4 text-coral hover:text-sunshine" onClick={() => window.open('https://www.boostmychild.com/developmentareas', '_blank')}>Develpment Areas 🡺</h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto font-medium">
             Made with love for teachers, parents, and little learners - creating smiles that matter!
           </p>

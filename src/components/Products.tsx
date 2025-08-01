@@ -92,7 +92,7 @@ export default function Products() {
               </div>
             </div>
             
-            <button className="w-full bg-sunshine text-white py-3 rounded-full hover:bg-coral transition-all duration-300 font-semibold shadow-lg transform hover:scale-105">
+            <button onClick={() => window.open('https://play.google.com/store/apps/details?id=com.boostmychild.consumer&pcampaignid=web_share', '_blank')} className="w-full bg-sunshine text-white py-3 rounded-full hover:bg-coral transition-all duration-300 font-semibold shadow-lg transform hover:scale-105">
               Download Parent App
             </button>
           </div>
