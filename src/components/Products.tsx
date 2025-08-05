@@ -27,7 +27,7 @@ export default function Products() {
               </div>
             </div>
             
-            <p className="text-gray-700 mb-6 text-lg leading-relaxed font-medium">
+            <p className="text-gray-700 mb-6 text-lg leading-relaxed text-xl">
               A magical assessment tool that helps preschools understand each child's unique learning journey, 
               track their amazing progress, and celebrate their special talents!
             </p>
@@ -68,7 +68,7 @@ export default function Products() {
               </div>
             </div>
             
-            <p className="text-gray-700 mb-6 text-lg leading-relaxed font-medium">
+            <p className="text-gray-700 mb-6 text-lg leading-relaxed text-xl">
               A delightful app that keeps parents connected to their little one's learning adventure, 
               sharing exciting milestones and fun activities to do together at home!
             </p>
@@ -101,7 +101,7 @@ export default function Products() {
         {/* Integration Section */}
         <div className="mt-16 bg-gradient-to-r from-lavender/30 to-mint/20 rounded-3xl p-8 text-center border-4 border-lavender/30">
           <h3 className="text-2xl font-playful text-coral mb-4">Perfect Together!</h3>
-          <p className="text-gray-700 mb-6 max-w-2xl mx-auto font-medium text-lg">
+          <p className="text-gray-700 mb-6 max-w-2xl mx-auto font-medium text-xl">
             SAM and Smart Parent App work like best friends, creating a magical learning world 
             where preschools teach, parents support, and children shine bright!
           </p>

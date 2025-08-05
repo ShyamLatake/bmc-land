@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <BookOpen className="h-8 w-8 text-sunshine" />
+              {/* <BookOpen className="h-8 w-8 text-sunshine" /> */}
               {/* <span className="text-2xl font-playful text-white">BoostMyChild</span> */}
               <img className='h-10' src="/BMC_R_Logo.png" alt="" />
             </div>
