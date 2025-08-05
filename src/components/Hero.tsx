@@ -3,7 +3,7 @@ import { ArrowRight, Play } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="h-[91vh] bg-gradient-to-br from-lavender via-sky/20 to-mint/30 py-20">
+    <section className="min-h-[91vh] bg-gradient-to-br from-lavender via-sky/20 to-mint/30 py-20 sm:py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-playful text-coral mb-6 leading-tight drop-shadow-sm">
