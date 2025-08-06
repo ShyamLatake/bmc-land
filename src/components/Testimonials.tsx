@@ -4,6 +4,22 @@ import { Star, Quote } from 'lucide-react';
 export default function Testimonials() {
   const testimonials = [
     {
+      name: 'Dr. Vasavvi Acharjya',
+      role: 'Principal',
+      school: 'Tender Petals Preschool',
+      content: 'BoostMyChild has made our assessments stress-free. Teachers can now focus on teaching, not paperwork.',
+      rating: 5,
+      image: '/principal_tenderPetals.png'
+    },
+    {
+      name: 'Shailesh Dhyaygude',
+      role: 'Parent',
+      school: 'Smart Parent App User',
+      content: 'The weekly parenting activities were so easy and fun. I could see real change in my son’s behavior.',
+      rating: 5,
+      image: '/shailesh_parent.png'
+    },
+    {
       name: 'Prakash Mehta',
       role: 'IT Professional',
       school: 'Smart Parent App User',
@@ -34,7 +50,7 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-playful text-coral mb-4">
-            Loved by Teachers & Families
+          🏆 Results that Speak
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto font-medium">
             Hear the happy stories from preschools and families using BoostMyChild!
@@ -63,7 +79,7 @@ export default function Testimonials() {
                   className="w-12 h-12 rounded-full mr-4 object-cover"
                 />
                 <div>
-                  <h4 className="font-bold text-gray-800">{testimonial.name}</h4>
+                  <h4 className="font-medium text-gray-800">{testimonial.name}</h4>
                   <p className="text-sm text-gray-600 font-semibold">{testimonial.role}</p>
                   <p className="text-sm text-coral font-semibold">{testimonial.school}</p>
                 </div>
