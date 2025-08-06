@@ -16,20 +16,19 @@ export default function Products() {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* School Assessment Module (SAM) */}
-          <div className="bg-gradient-to-br from-mint/20 to-sky/30 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-4 border-mint/30">
+          <div className=" from-mint/20 to-sky/30 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-4 border-mint/30">
             <div className="flex items-center mb-6">
               <div className="bg-mint rounded-2xl p-3 mr-4 shadow-lg">
                 <GraduationCap className="h-8 w-8 text-white" />
               </div>
               <div>
-                <h3 className="text-2xl font-playful text-gray-800">School Assessment Module</h3>
-                <p className="text-mint font-bold text-lg">SAM</p>
+                <h3 className="text-2xl font-playful text-gray-800">School Assessment Module (SAM)</h3>
+                <p className="text-mint font-bold text-lg">Transform Assessments into Actionable Insights</p>
               </div>
             </div>
             
             <p className="text-gray-700 mb-6 text-lg leading-relaxed text-xl">
-              A magical assessment tool that helps preschools understand each child's unique learning journey, 
-              track their amazing progress, and celebrate their special talents!
+            AI-powered holistic development tracking aligned to NEP/NCF standards.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mb-8">
@@ -57,20 +56,19 @@ export default function Products() {
           </div>
           
           {/* Smart Parent App */}
-          <div className="bg-gradient-to-br from-sunshine/20 to-peach/30 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-4 border-sunshine/30">
+          <div className=" from-sunshine/20 to-peach/30 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-4 border-sunshine/30">
             <div className="flex items-center mb-6">
               <div className="bg-sunshine rounded-2xl p-3 mr-4 shadow-lg">
                 <Smartphone className="h-8 w-8 text-white" />
               </div>
               <div>
                 <h3 className="text-2xl font-playful text-gray-800">Smart Parent App</h3>
-                <p className="text-sunshine font-bold text-lg">Mobile & Web</p>
+                <p className="text-sunshine font-bold text-lg">Nurture Your Child's Potential</p>
               </div>
             </div>
             
             <p className="text-gray-700 mb-6 text-lg leading-relaxed text-xl">
-              A delightful app that keeps parents connected to their little one's learning adventure, 
-              sharing exciting milestones and fun activities to do together at home!
+            Personalized growth suggestions and progress insights, designed by child development experts.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mb-8">

@@ -11,8 +11,7 @@ export default function Hero() {
             <span className="text-mint block">Development</span>
           </h1>
           <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed font-medium">
-            Transform learning with our comprehensive assessment tools and smart parent engagement platform. 
-            Give your child the personalized support they need to thrive academically.
+          AI-Driven Platform tailored for Preschools & Parents, providing evidence-based assessments, child development tracking, teacher insights, and parent engagement in one powerful ecosystem.
           </p>
           
           {/* <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
