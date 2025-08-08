@@ -112,12 +112,16 @@ export default function CTA() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-            <button className="bg-white text-coral px-8 py-4 rounded-full hover:bg-mint hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 text-lg font-bold shadow-lg">
+            <button className="bg-white text-coral px-8 py-4 rounded-full hover:bg-mint hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 text-lg font-bold shadow-lg"
+            onClick={() => window.open('https://forms.gle/LMz9Mig6T3wfdyHw7', '_blank')}
+            >
               <span>Start Free Trial</span>
               <ArrowRight className="h-5 w-5" />
             </button>
-            <button className="border-4 border-white text-white px-8 py-4 rounded-full hover:bg-white hover:text-coral transition-all duration-300 text-lg font-bold shadow-lg">
-              Schedule Demo
+            <button className="border-4 border-white text-white px-8 py-4 rounded-full hover:bg-white hover:text-coral transition-all duration-300 text-lg font-bold shadow-lg"
+            onClick={() => window.open('https://youtu.be/W_bcZTgjomE?si=a8_M33GT5F7OGi0c', '_blank')}
+            >
+              Watch Demo
             </button>
           </div>
 
