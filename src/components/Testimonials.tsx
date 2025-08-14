@@ -4,28 +4,44 @@ import { Star, Quote } from 'lucide-react';
 export default function Testimonials() {
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'Preschool Director',
-      school: 'Sunshine Preschool',
-      content: 'SAM has made understanding each child\'s learning journey so much easier! The colorful reports help us celebrate every little milestone.',
+      name: 'Dr. Vasavvi Acharjya',
+      role: 'Principal',
+      school: 'Tender Petals Preschool',
+      content: 'BoostMyChild has made our assessments stress-free. Teachers can now focus on teaching, not paperwork.',
       rating: 5,
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: '/principal_tenderPetals.png'
     },
     {
-      name: 'Michael Chen',
-      role: 'Dad of Emma (4) & Lucas (3)',
+      name: 'Shailesh Dhyaygude',
+      role: 'Parent',
       school: 'Smart Parent App User',
-      content: 'The Smart Parent App is amazing! I love seeing photos of my kids\' artwork and getting fun activity ideas to try at home together.',
+      content: 'The weekly parenting activities were so easy and fun. I could see real change in my son’s behavior.',
       rating: 5,
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: '/shailesh_parent.png'
     },
     {
-      name: 'Dr. Emily Rodriguez',
-      role: 'Early Childhood Specialist',
-      school: 'Little Learners Academy',
-      content: 'BoostMyChild helps us spot each child\'s unique strengths early on. It\'s wonderful seeing how personalized learning makes every child shine!',
+      name: 'Prakash Mehta',
+      role: 'IT Professional',
+      school: 'Smart Parent App User',
+      content: 'Evaluations were very useful and activity suggestions were pinpoint.',
       rating: 5,
-      image: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: '/male_parent_1.jpg'
+    },
+    {
+      name: 'Dr. Aarthi Chandran',
+      role: 'Medical Practitioner',
+      school: 'Smart Parent App User',
+      content: 'Identified hidden hobbies and talents which I had missed to notice.',
+      rating: 5,
+      image: '/female_parent_1.jpg'
+    },
+    {
+      name: 'Devika Sharma',
+      role: 'Teacher',
+      school: 'SAM User',
+      content: 'This has helped me be a better parent in spite of being so busy',
+      rating: 5,
+      image: '/female_parent_2.jpg'
     }
   ];
 
@@ -34,7 +50,7 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-playful text-coral mb-4">
-            Loved by Teachers & Families
+          🏆 Results that Speak
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto font-medium">
             Hear the happy stories from preschools and families using BoostMyChild!
@@ -63,7 +79,7 @@ export default function Testimonials() {
                   className="w-12 h-12 rounded-full mr-4 object-cover"
                 />
                 <div>
-                  <h4 className="font-bold text-gray-800">{testimonial.name}</h4>
+                  <h4 className="font-medium text-gray-800">{testimonial.name}</h4>
                   <p className="text-sm text-gray-600 font-semibold">{testimonial.role}</p>
                   <p className="text-sm text-coral font-semibold">{testimonial.school}</p>
                 </div>

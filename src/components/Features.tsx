@@ -2,42 +2,81 @@ import React from 'react';
 import { Shield, Zap, Globe, HeadphonesIcon, Award, TrendingUp } from 'lucide-react';
 
 export default function Features() {
-  const features = [
+  const schoolFeatures = [
     {
-      icon: Shield,
-      title: 'Safe & Secure',
-      description: 'Super safe protection for all your little one\'s information, just like a digital treasure chest!',
+      icon: '/icons/assessment.svg',
+      title: 'Customizable Assessments',
+      description: 'Along NEP/NCF structure which can be tailored to school’s assessments',
       color: 'text-mint'
     },
     {
-      icon: Zap,
-      title: 'Quick as a Flash',
-      description: 'Fast and fun assessments that work as quickly as your child\'s imagination!',
+      icon: '/icons/expert.svg',
+      title: 'Created By Experts ',
+      description: 'Developed by child development experts after years of research',
       color: 'text-sunshine'
     },
     {
-      icon: Globe,
-      title: 'Learn Anywhere',
-      description: 'Works on tablets, phones, and computers - learning fun wherever you go!',
+      icon: '/icons/data-analysis.svg',
+      title: 'School-Level Data Analytics',
+      description: 'Insights across classes, branches, and locations.',
       color: 'text-coral'
     },
     {
-      icon: HeadphonesIcon,
-      title: 'Always Here to Help',
-      description: 'Friendly support team ready to help teachers and parents anytime, day or night!',
+      icon: '/icons/parent_satisfaction.svg',
+      title: 'Parent Satisfaction',
+      description: 'Transparent & engaging reports for better PTM discussions.',
       color: 'text-lavender'
     },
     {
-      icon: Award,
-      title: 'Amazing Results',
-      description: 'Proven to help little learners grow and succeed in their educational journey!',
+      icon: '/icons/less_work.svg',
+      title: 'Reduce Teacher Workload',
+      description: 'Automation of mundane tasks allowing focus on pedagogy.',
       color: 'text-peach'
     },
     {
-      icon: TrendingUp,
-      title: 'Always Getting Better',
-      description: 'We keep adding new fun features based on what teachers and parents tell us!',
+      icon: '/icons/shield.svg',
+      title: 'Secure & Confidential',
+      description: 'Data privacy and protection guaranteed ',
       color: 'text-sky'
+    }
+  ];
+
+  const parentFeatures = [
+    {
+      icon: '/icons/360-degrees.png',
+      title: 'Track child’s 360° Growth',
+      description: 'Monitor your child’s holistic development across all key learning areas, aligned with NEP/NCF.',
+      color: 'text-mint'
+    },
+    {
+      icon: '/icons/AI_icon.svg',
+      title: 'AI Driven Personalized Learning',
+      description: "Receive weekly tips and activities tailored to your child’s unique growth using smart AI insights.",
+      color: 'text-sunshine'
+    },
+    {
+      icon: '/icons/language.svg',
+      title: 'Available in Your Language',
+      description: 'Access the platform in English, Hindi, Marathi, Assamese and more languages coming soon for better connection.',
+      color: 'text-coral'
+    },
+    {
+      icon: '/icons/parent_teacher_collab.svg',
+      title: 'Parent-Teacher Collaboration',
+      description: 'Stay in sync with your child’s progress through seamless parent-teacher communication.',
+      color: 'text-lavender'
+    },
+    {
+      icon: '/icons/multimedia.svg',
+      title: 'Multimedia Updates',
+      description: 'Get regular photo, video, portfolio updates of your child’s learning moments and milestones.',
+      color: 'text-coral'
+    },
+    {
+      icon: '/icons/bonding.svg',
+      title: 'Bonding Through Learning',
+      description: 'Enjoy fun, personalized home activities that strengthen parent-child bonding through play.',
+      color: 'text-lavender'
     }
   ];
 
@@ -52,12 +91,29 @@ export default function Features() {
             Made with love for teachers, parents, and little learners - creating smiles that matter!
           </p>
         </div>
+
+        <div className="features-content">
+          <h2 className="text-2xl font-playful mt-6 mb-4 text-mint" >Schools</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {schoolFeatures.map((feature, index) => (
+              <div key={index} className="bg-white rounded-2xl p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-4 border-gray-100 hover:border-coral/30">
+                <div className={`inline-flex p-3 rounded-2xl bg-gradient-to-br from-gray-50 to-gray-100 mb-4 shadow-md`}>
+                  <img src={feature.icon} alt="" className={`h-6 w-6 ${feature.color}`}/>
+                </div>
+                <h3 className="text-xl font-playful text-gray-800 mb-3">{feature.title}</h3>
+                <p className="text-gray-600 leading-relaxed font-medium">{feature.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <h2 className="text-2xl font-playful mt-6 mb-4 text-mint" >Parents</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
+          {parentFeatures.map((feature, index) => (
             <div key={index} className="bg-white rounded-2xl p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-4 border-gray-100 hover:border-coral/30">
               <div className={`inline-flex p-3 rounded-2xl bg-gradient-to-br from-gray-50 to-gray-100 mb-4 shadow-md`}>
-                <feature.icon className={`h-6 w-6 ${feature.color}`} />
+              <img src={feature.icon} alt="" className={`h-6 w-6 ${feature.color}`}/>
               </div>
               <h3 className="text-xl font-playful text-gray-800 mb-3">{feature.title}</h3>
               <p className="text-gray-600 leading-relaxed font-medium">{feature.description}</p>
